@@ -16,4 +16,6 @@ public class ZhensMallException extends RuntimeException{
     public Integer getCode(){
         return code;
     }
+
+    public String getMessage() {return message;}
 }

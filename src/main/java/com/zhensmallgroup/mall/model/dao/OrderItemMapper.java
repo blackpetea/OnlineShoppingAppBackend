@@ -1,5 +1,6 @@
 package com.zhensmallgroup.mall.model.dao;
 
+import com.github.pagehelper.PageInfo;
 import com.zhensmallgroup.mall.model.pojo.OrderItem;
 import org.springframework.stereotype.Repository;
 
@@ -15,5 +16,5 @@ public interface OrderItemMapper {
 
     int updateByPrimaryKeySelective(OrderItem record);
 
-    int updateByPrimaryKey(OrderItem record);
+    PageInfo updateByPrimaryKey(OrderItem record);
 }

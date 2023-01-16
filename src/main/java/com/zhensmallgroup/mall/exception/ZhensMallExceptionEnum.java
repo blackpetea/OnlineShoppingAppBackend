@@ -18,13 +18,19 @@ public enum ZhensMallExceptionEnum {
 
     NEED_LOGIN(10007, "User is not logged in"),
 
-    UPDATE_FAILED(10008, "User Log in failed"),
+    UPDATE_FAILED(10008, "update is failed"),
 
     PARAM_NOT_NULL(10010, "Parameter can't be null"),
 
     CREATE_FAILED(10011, "create failed"),
 
     REQUEST_PARAM_ERROR(10012, "wrong parameters"),
+
+    DELETE_FAILED(10013, "delete failed"),
+
+    MKDIR_FAILED(10014, "folder creation failed"),
+
+    UPLOAD_FAILED(10015,"Image Upload failed" ),
 
     NEED_ADMIN(10009, "not a admin");
     Integer code;
