@@ -32,6 +32,14 @@ public enum ZhensMallExceptionEnum {
 
     UPLOAD_FAILED(10015,"Image Upload failed" ),
 
+    NOT_SALE(10016, "not on sale"),
+
+    NOT_ENOUGH(10017, "product stock is not enough"),
+
+    CART_EMPTY(10018, "cart is empty"),
+
+    NO_ENUM(10019, "couldn't find the enum"),
+
     NEED_ADMIN(10009, "not a admin");
     Integer code;
     String msg;
